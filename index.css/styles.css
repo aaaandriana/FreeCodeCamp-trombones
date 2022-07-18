@@ -16,7 +16,7 @@
 .fa-truck:before {
   content: "\f0d1";
 }
-#content__container-featers .featers__materials-icon {
+#content__featers .featers__materials-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 @media (max-width: 550px) {
-  #content__container-featers .featers__materials-icon {
+  #content__featers .featers__materials-icon {
     display: none;
   }
 }
