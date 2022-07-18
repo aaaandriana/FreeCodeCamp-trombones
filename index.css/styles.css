@@ -8,13 +8,25 @@
     position: fixed;
     top: 0px;
   }
-@media (max-width: 650px)
-nav {
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0px 50px;
+
+.content__container-featers {
+  margin-top: 30px;
+
+}
+.fa-truck:before {
+  content: "\f0d1";
+}
+#content__container-featers .featers__materials-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+}
+
+@media (max-width: 550px) {
+  #content__container-featers .featers__materials-icon {
+    display: none;
+  }
 }
