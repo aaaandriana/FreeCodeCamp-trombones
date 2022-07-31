@@ -25,6 +25,7 @@
   color: darkorange;
 }
 
+
 @media (max-width: 550px) {
   #content__featers .featers__materials-icon {
     display: none;
