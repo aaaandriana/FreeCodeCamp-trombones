@@ -5,7 +5,6 @@ body{
     margin: 0;
 }
 
-/*header*/
 #header{
   position: fixed;
   background-color: #eee;
@@ -40,8 +39,6 @@ body{
   font-family: "Lato", sans-serif;
   color: #000;
 }
-
-/*main*/
 .heading-land{
     background-color: #eee;
     display: flex;
@@ -83,8 +80,6 @@ body{
     font-weight: bold;
   }
 
-  /*material information*/
-
   .material-info {
     display: flex;
     flex-direction: column;
@@ -124,7 +119,6 @@ body{
     border: 1px solid #000;
 }
 
-/*Pricing*/
 #pricing-menu {
     padding-top: 20px;
     background-color: #eee;
@@ -188,7 +182,6 @@ body{
     text-transform: uppercase;
 }
 
-/*Footer*/
 .footer{
     background-color: #eee;
     width: 100%;
@@ -233,9 +226,8 @@ body{
     padding-right: 10px;
 }
 
-/*Responsive*/
 
-/*Mobile*/
+
 @media (max-width: 345px){
     #header{
         width: 280px;
@@ -294,7 +286,6 @@ body{
     }
 }
 
-/*Tablet*/
 @media (max-width: 800px){
     #list-content{
         gap: 55px;
